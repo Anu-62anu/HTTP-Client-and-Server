@@ -1,32 +1,3 @@
-Simple HTTP Server and Client
+HTTP Server and Client Using Python Socket Programming
 
-This project contains a simple implementation of an HTTP server and client using Python's socket module.
-
-HTTP Client
-The HTTP client sends a request to the server and prints the response.
-
-Usage
-Run the Client:
-
-bash
-Copy code
-python client.py
-Customize Request: Modify the send_request function call in client.py to change the HTTP method (e.g., GET, POST).
-
-HTTP Server
-The HTTP server listens for incoming connections and handles GET and POST requests.
-
-Usage
-Run the Server:
-
-bash
-Copy code
-python server.py
-Interact with the Server:
-
-GET Request: Returns a simple HTML page saying "Hello, World!"
-POST Request: Returns a page saying "POST request received!"
-Other Requests: Returns a "Method Not Allowed" response.
-Files
-client.py: Contains the client code for sending HTTP requests.
-server.py: Contains the server code for handling HTTP requests.
+This project features a basic implementation of an HTTP server and client using Python's socket module. The server is designed to handle GET and POST requests, responding with simple HTML messages for each type of request. The client script connects to the server, sends an HTTP request, and prints the received response. This setup is useful for understanding fundamental HTTP communication and socket programming in Python.
