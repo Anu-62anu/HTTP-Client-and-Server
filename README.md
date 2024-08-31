@@ -1,4 +1,5 @@
 Simple HTTP Server and Client
+
 This project contains a simple implementation of an HTTP server and client using Python's socket module.
 
 HTTP Client
